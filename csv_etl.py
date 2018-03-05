@@ -26,7 +26,7 @@ class ParseCsvFn(beam.DoFn):
 def run():
    argv = [
       '--project={0}'.format(PROJECT),
-      '--job_name=DailyImport',
+      '--job_name=dailyimport',
       '--save_main_session',
       '--staging_location=gs://{0}/test/'.format(BUCKET),
       '--temp_location=gs://{0}/test/'.format(BUCKET),
