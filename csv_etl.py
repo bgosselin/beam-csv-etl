@@ -12,7 +12,7 @@ def my_grep(line, term):
 PROJECT='dataflow-helloworld'
 BUCKET='raw-data-upload-bucket01'
 
-
+#DoFN Class
 class ParseCsvFn(beam.DoFn):
 
   def process(self, element):
